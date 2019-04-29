@@ -1,0 +1,61 @@
+
+body {
+  padding-top: 40px;
+  width: 40%;
+  margin: 0 auto;
+  background-color: #e5e5e5;
+}
+
+li {
+  list-style: none;
+}
+ /**
+h1 {
+  background-color: #2196f3;
+  color: #000000;
+  font-size: 4.5em;
+  font-weight: lighter;
+  text-align: center;
+}**/
+
+.mdl-card__title-text {
+  font-family: fantasy, serif, sans-serif;
+  font-size: 2em;
+  text-align: center;
+  text-decoration: none;
+}
+
+label {
+  color: #96302B;
+  font-size: 1em;
+  font-weight: lighter;
+}
+
+input {
+  font-size: 1em;
+  font-weight: lighter;
+}
+
+
+form, ul {
+  padding-left: 13%;
+}
+
+.mdl-button--raised {
+   color: #96302B;
+   height: 23px;
+   line-height: 20px;
+   text-transform: none;
+}
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
