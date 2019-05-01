@@ -35,7 +35,7 @@ function onReady() {
        const newLi = document.createElement('li');
        const checkbox = document.createElement('input');
        checkbox.type = "checkbox";
-       const deletBtn = doucment.createElement('button')
+       const deletBtn = document.createElement('button')
 deletBtn.innerHTML = '<span>Delete</span>';
 
         newLi.textContent = toDo.title;
@@ -56,36 +56,3 @@ deletBtn.innerHTML = '<span>Delete</span>';
 window.onload = function() {
   onReady();
 };
-
-//Checkpoint 5
-/* window.onload = function onReady() {
-     const addToDoForm = document.getElementById('addToDoForm');
-        const newToDoText = document.getElementById('newToDoText');
-        const toDoList = document.getElementById('toDoList');
-        addToDoForm.addEventListener('submit', event => {
-        event.preventDefault();
-
-        //get the text
-        let title = newToDoText.value;
-
-        // create a new li
-        let newLi = document.createElement('li');
-
-        // create a new input
-        let checkbox = document.createElement('input');
-
-        // set the input's type to checkbox
-        checkbox.type = "checkbox";
-
-        // set the title
-        newLi.textContent = title;
-
-        // attach the checkbox to the li
-        newLi.appendChild(checkbox);
-
-        // attach the li to the ul
-        toDoList.appendChild(newLi);
-
-        //empty the input
-        newToDoText.value = '';
-      });
